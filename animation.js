@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Created by Administrator on 2017/3/5.
  */
 var animation={
@@ -237,8 +237,6 @@ var animation={
         }
     }
 }
-var box=document.getElementsByClassName('box');
-var m=animation.animation(box,{width:'500px',opacity:'0.2'},{duration:2000,timing:'liner',fillMode:'forwards',count:'1'});
 module .exports={
     animation:animation.animation,
     paused:animation.paused
